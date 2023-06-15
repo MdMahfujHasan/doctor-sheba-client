@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
 import { AiOutlineMenu } from 'react-icons/ai';
+import Title from '../../../components/Title';
 
 const NavBar = () => {
     const navInfo = <div className='flex flex-col md:flex-row text-white font-semibold'>
@@ -22,7 +23,7 @@ const NavBar = () => {
                 </div>
                 <div className='space-x-2 flex items-center'>
                     <img src={logo} className="h-14 w-14" />
-                    <p className='font-bold text-xl'><span className="text-pink-300">Doctor</span> <span className='text-white'>Sheba</span></p>
+                    <Title />
                 </div>
             </div>
             <div className="hidden lg:flex">

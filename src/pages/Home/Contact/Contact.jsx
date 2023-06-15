@@ -8,9 +8,7 @@ const Contact = () => {
                 <AiOutlineClockCircle className='text-4xl' />
                 <div className='space-y-2'>
                     <h3 className='text-2xl font-bold'>Opening Hours</h3>
-                    <p className='text-sm font-thin'>Open 9.00 am to 5.00 pm
-                        <br />
-                        Everyday</p>
+                    <p className='text-sm font-thin'>Open 9.00 am to 7.00 pm</p>
                 </div>
             </div>
             <div className='bg-pink-300 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-12'>
