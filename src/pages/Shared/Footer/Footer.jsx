@@ -1,8 +1,10 @@
 import logo from '../../../assets/logo.png';
 import Button from '../../../components/Button';
 import Title from '../../../components/Title';
+import { format } from 'date-fns';
 
 const Footer = () => {
+    const year = format(new Date(), 'yyyy');
     return (
         <>
             <footer className="footer p-10 bg-purple-200 text-base-content">
@@ -48,7 +50,7 @@ const Footer = () => {
                 </div>
             </footer>
             <div>
-                <p className="px-8 py-3 text-center bg-purple-200 border-t border-t-purple-300"><small>Copyright © 2022 - All right reserved by Doc House Ltd</small></p>
+                <p className="px-8 py-3 text-center bg-purple-200 border-t border-t-purple-300"><small>Copyright © {year} - All right reserved by Doctor Sheba Ltd.</small></p>
             </div >
         </>
     );

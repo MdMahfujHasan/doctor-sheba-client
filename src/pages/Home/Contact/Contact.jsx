@@ -3,15 +3,15 @@ import { FiMapPin, FiPhoneCall } from 'react-icons/fi';
 
 const Contact = () => {
     return (
-        <div className='max-w-screen-lg mx-auto flex flex-col lg:flex-row justify-between mt-12 p-6 gap-8'>
-            <div className='bg-cyan-950 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-12'>
+        <div className='max-w-screen-lg mx-auto flex flex-col lg:flex-row mt-12 gap-8 container p-8'>
+            <div className='w-80 bg-cyan-950 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-8'>
                 <AiOutlineClockCircle className='text-4xl' />
                 <div className='space-y-2'>
                     <h3 className='text-2xl font-bold'>Opening Hours</h3>
                     <p className='text-sm font-thin'>Open 9.00 am to 7.00 pm</p>
                 </div>
             </div>
-            <div className='bg-pink-300 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-12'>
+            <div className='w-80 bg-pink-300 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-8'>
                 <FiMapPin className='text-4xl' />
                 <div className='space-y-2'>
                     <h3 className='text-2xl font-bold'>Our Location</h3>
@@ -22,7 +22,7 @@ const Contact = () => {
                         Dhaka, Bangladesh</p>
                 </div>
             </div>
-            <div className='bg-cyan-950 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-12'>
+            <div className='w-80 bg-cyan-950 text-white flex flex-col xl:flex-row justify-center items-center gap-4 rounded-xl p-8'>
                 <FiPhoneCall className='text-4xl' />
                 <div className='space-y-2'>
                     <h3 className='text-2xl font-bold'>Contact Us</h3>
