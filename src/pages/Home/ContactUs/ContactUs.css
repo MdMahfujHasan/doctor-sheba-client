@@ -7,3 +7,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
+
+input::placeholder,
+textarea::placeholder {
+    color: #4fe7ad;
+}

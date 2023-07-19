@@ -8,7 +8,7 @@ const Banner = () => {
                 <img src={banner} className="max-w-sm rounded-lg lg:-mb-10" />
                 <div>
                     <h1 className="text-3xl lg:text-5xl font-bold text-white">Book Your Next Doctor&apos;s Appointment: <span className='text-cyan-400'>Convenient</span>, <span className='text-cyan-400'>Reliable</span>, and <span className='text-cyan-400'>Hassle-Free</span> at <span className="text-pink-300">Doctor</span> Sheba</h1>
-                    <p className="py-6 text-white text-base lg:text-lg font-mono">Effortlessly book doctor&apos;s appointments online. Find the perfect healthcare professional and get timely care with ease.</p>
+                    <p className="py-6 text-primary-content text-base lg:text-lg">Effortlessly book doctor&apos;s appointments online. Find the perfect healthcare professional and get timely care with ease.</p>
                     <Button title="All Services"></Button>
                 </div>
             </div>
