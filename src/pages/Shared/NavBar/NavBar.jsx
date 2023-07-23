@@ -2,13 +2,15 @@ import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
 import { AiOutlineMenu } from 'react-icons/ai';
 import Title from '../../../components/Title';
+import ActiveLink from '../../../components/ActiveLink';
 
 const NavBar = () => {
     const navInfo = <div className='flex flex-col md:flex-row font-serif text-primary-content rounded-lg md:rounded-none space-y-2 md:space-y-0 md:space-x-10'>
-        <Link className="hover:text-cyan-500" to="/">Home</Link>
-        <Link className="hover:text-cyan-500" to="/about">About</Link>
-        <Link className="hover:text-cyan-500" to="/appointment">Appointment</Link>
-        <Link className="hover:text-cyan-500" to="/login">Login</Link>
+        <ActiveLink to="/" className="hover:text-cyan-500">Home</ActiveLink>
+        <ActiveLink to="/about" className="hover:text-cyan-500">About</ActiveLink>
+        <ActiveLink to="/appointment" className="hover:text-cyan-500">Appointment</ActiveLink>
+        <ActiveLink to="/login" className="hover:text-cyan-500">Login</ActiveLink>
+        <ActiveLink to="/register" className="hover:text-cyan-500">Register</ActiveLink>
     </div>
     return (
         <div className="navbar bg-cyan-950 flex justify-between items-center max-w-screen-2xl mx-auto">
