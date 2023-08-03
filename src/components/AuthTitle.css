@@ -1,0 +1,6 @@
+.text-gradient-cyan-pink {
+    background: linear-gradient(90deg, blue, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

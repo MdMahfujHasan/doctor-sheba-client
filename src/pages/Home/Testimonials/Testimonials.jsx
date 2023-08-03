@@ -49,7 +49,7 @@ const Testimonials = () => {
             >
                 {testimonials.map(testimonial => (
                     <SwiperSlide key={testimonial.id}>
-                        <div className="border border-slate-200 h-80 mt-6">
+                        <div className="border border-slate-200 h-80 mt-6 hover:cursor-grab active:cursor-grabbing">
                             <div className="flex items-center p-6 gap-4">
                                 <div className="avatar">
                                     <div className="w-14 rounded-full ring ring-pink-300 ring-offset-base-100 ring-offset-2">
